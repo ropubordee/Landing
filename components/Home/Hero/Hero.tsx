@@ -32,10 +32,10 @@ const Hero = () => {
               appeal.
             </p>
             {/* icon 3D */}
-            <div className="flex mt-8 mb-8 items-center space-x-4">
-                <Image src='/images/ig.png' alt="ig" width={150} height={150} className="object-cover"/>
-                <Image src='/images/git.png' alt="git" width={150} height={150} className="object-cover"/>
-                <Image src='/images/line.png' alt="line" width={150} height={150} className="object-cover"/>
+            <div className="flex mt-8 mb-8 items-center space-x-4 ">
+            <Image src='/images/ig.png' alt="ig" width={150} height={150} className="  sm:max-w-sm md:max-w-md object-cover"/>
+    {/* <Image src='/images/git.png' alt="git" width={150} height={150} className="  sm:max-w-sm md:max-w-md object-cover"/> */}
+    <Image src='/images/line.png' alt="line" width={150} height={150} className=" sm:max-w-sm md:max-w-md object-cover"/>
             </div>
           </div>
           {/* Image Cntent */}
@@ -44,7 +44,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      s
     </div>
   );
 };
