@@ -4,7 +4,11 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
-const Nav = () => {
+type Props ={
+  openNav : ()=>void
+}
+
+const Nav = ({openNav} : Props) => {
   const [navBg, setNavBg] = useState(false);
 
   const handler = () => {
@@ -56,7 +60,7 @@ const Nav = () => {
             Join Now
           </button>
           {/* Burger memu */}
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-black lg:hidden" />
+          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-black lg:hidden" />
         </div>
       </div>
     </div>
