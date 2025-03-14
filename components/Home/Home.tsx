@@ -4,6 +4,7 @@ import WhyChoose from './WhyChoose/WhyChoose'
 import AnalyticsFeature from './AnalyticsFeature/AnalyticsFeature'
 import Feature from './Feature/Feature'
 import Revivew from './Revivew/Revivew'
+import Offer from './Offer/Offer'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <AnalyticsFeature/>
       <Feature/>
       <Revivew/>
+      <Offer/>
     </div>
   )
 }
