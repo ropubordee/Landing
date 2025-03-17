@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import {
-  FaDribbble,
   FaEnvelope,
   FaFacebook,
+  FaGithub,
   FaGlobe,
   FaMapMarkedAlt,
   FaPhoneAlt,
@@ -61,19 +61,19 @@ const Footer = () => {
             <ul className="mt-4 space-y-2 text-sm font-medium text-gray-600">
               <li className="flex items-center">
                 <FaMapMarkedAlt className="mr-2 text-pink-700" />
-                Amsterdam, Netherlands
+                Maha Sarakham
               </li>
               <li className="flex items-center">
                 <FaPhoneAlt className="mr-2 text-pink-700" />
-                +31 123 456 789
+                +66 61 510 9439
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2 text-pink-700" />
-                contact@appify.com
+                pubordeesrisurach@gmail.com
               </li>
               <li className="flex items-center">
                 <FaGlobe className="mr-2 text-pink-700" />
-                www.appify.com
+                app-landling.vercel.app
               </li>
             </ul>
           </div>
@@ -99,10 +99,10 @@ const Footer = () => {
               <FaTwitter />
             </Link>
             <Link
-              href="#"
+              href="https://github.com/ropubordee/app-landling-nextjs"
               className="text-gray-500 hover:text-gray-800 text-xl"
             >
-              <FaDribbble />
+              <FaGithub />
             </Link>
           </div>
         </div>
