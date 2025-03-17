@@ -58,7 +58,9 @@ const Feature = () => {
         </h1>
         <div className="grid mt-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((item, index) => (
-            <div key={index} className="flex items-center justify-center p-4 bg-white rounded-lg shadow-md space-x-3">
+            <div   data-aos="flip-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay={`${index * 100}`} key={index} className="flex items-center justify-center p-4 bg-white rounded-lg shadow-md space-x-3">
               <div className="text-3xl w-14 h-14 bg-gray-800  flex items-center justify-center flex-col rounded-full">
                 <span>{item.icon}</span>
               </div>

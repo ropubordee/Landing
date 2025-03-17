@@ -21,25 +21,43 @@ const Hero = () => {
               </p>
             </div>
             {/* Heading */}
-            <h1 className="text-2xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem] lg:leading-[3.5rem]">
+            <h1
+              data-aos="fade-up"
+              className="text-2xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem] lg:leading-[3.5rem]"
+            >
               The preier workspace companion for your daily needs.
             </h1>
             {/* Dscription */}
             <p className="text-gray-700">
               A refined design with smooth typography and balanced spacing. The
-              color palette conveys professionalism while maintaining visual
-              and sophisticated design with a touch of professionalism
-              appeal.
+              color palette conveys professionalism while maintaining visual and
+              sophisticated design with a touch of professionalism appeal.
             </p>
             {/* icon 3D */}
             <div className="flex mt-8 mb-8 items-center space-x-4 ">
-            <Image src='/images/ig.png' alt="ig" width={150} height={150} className="  sm:max-w-sm md:max-w-md object-cover"/>
-    {/* <Image src='/images/git.png' alt="git" width={150} height={150} className="  sm:max-w-sm md:max-w-md object-cover"/> */}
-    <Image src='/images/line.png' alt="line" width={150} height={150} className=" sm:max-w-sm md:max-w-md object-cover"/>
+              <Image
+                src="/images/ig.png"
+                alt="ig"
+                width={150}
+                height={150}
+                className="  sm:max-w-sm md:max-w-md object-cover"
+              />
+              {/* <Image src='/images/git.png' alt="git" width={150} height={150} className="  sm:max-w-sm md:max-w-md object-cover"/> */}
+              <Image
+                src="/images/line.png"
+                alt="line"
+                width={150}
+                height={150}
+                className=" sm:max-w-sm md:max-w-md object-cover"
+              />
             </div>
           </div>
           {/* Image Cntent */}
-          <div className=" hidden lg:block">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className=" hidden lg:block"
+          >
             <Image src="/images/a.png" alt="hero" width={700} height={700} />
           </div>
         </div>

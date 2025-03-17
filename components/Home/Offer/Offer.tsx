@@ -3,7 +3,9 @@ import React from "react";
 const Offer = () => {
     return (
         <div className="flex items-center justify-center pt-24 pb-24 mb-20 bg-black">
-          <div className="text-center px-6">
+          <div   data-aos="zoom-in"
+  data-aos-delay="300"
+  data-aos-duration="1200" className="text-center px-6">
             <h1 className="text-white text-2xl md:text-3xl font-semibold mb-4">
               Unlock Ultimate Features with Premium
             </h1>
